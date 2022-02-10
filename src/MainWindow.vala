@@ -117,7 +117,7 @@ namespace Pasgen {
         }
 
    private void generate_password () {
-          if (is_empty(password_length_entry.get_text())){
+          if (password_length_entry.get_text().strip().length == 0){
               password_text.label = "The input field cannot be empty";
               password_length_entry.grab_focus();
               return;
@@ -130,10 +130,6 @@ namespace Pasgen {
                                                            allow_numeric, allow_special);
             var generated_password = password_generator.generate_password ();
             password_text.label = generated_password;
-        }
-
-     private bool is_empty(string str){
-        return str.strip().length == 0;
         }
     }
 }
