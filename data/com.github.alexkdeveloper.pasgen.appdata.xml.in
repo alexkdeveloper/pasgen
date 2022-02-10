@@ -7,7 +7,7 @@
   <name>Pasgen</name>
   <summary>Simple password generator</summary>
   <description>
-    <p>With this application, you can quickly create passwords of any length. You can switch between character sets for generation..</p>
+    <p>With this application, you can quickly create passwords of any length. You can switch between character sets for generation.</p>
   </description>
   <provides>
     <binary>com.github.alexkdeveloper.pasgen</binary>
