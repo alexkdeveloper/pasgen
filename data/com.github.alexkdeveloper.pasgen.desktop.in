@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Pasgen
+Comment=Simple password generator
+GenericName=Pasgen
+Exec=com.github.alexkdeveloper.pasgen %U
+Icon=com.github.alexkdeveloper.pasgen
+Terminal=false
+Categories=Utility;GTK;
+Keywords=password;generator;
