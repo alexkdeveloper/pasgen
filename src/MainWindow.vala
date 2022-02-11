@@ -101,7 +101,7 @@ namespace Pasgen {
             var hbox = new Box(Orientation.HORIZONTAL, 12);
             hbox.halign = Align.CENTER;
             hbox.margin = 12;
-            var password_length_label = new Label("Password length: ");
+            var password_length_label = new Label("Password length:");
             password_length_label.xalign = 0;
             password_length_entry = new Entry();
             password_length_entry.set_text ("18");
