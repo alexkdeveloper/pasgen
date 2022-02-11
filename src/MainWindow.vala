@@ -32,6 +32,10 @@ namespace Pasgen {
                  error ("Cannot load CSS stylesheet: %s", e.message);
          }
           get_style_context().add_class("rounded");
+          HeaderBar headerbar = new HeaderBar();
+          headerbar.get_style_context().add_class(STYLE_CLASS_FLAT);
+          headerbar.show_close_button = true;
+          set_titlebar(headerbar);
           box = new Box (Orientation.VERTICAL, 1);  
             create_switches ();          
             create_entry_and_button ();  
