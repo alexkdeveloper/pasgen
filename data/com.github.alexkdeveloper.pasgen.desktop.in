@@ -6,5 +6,5 @@ GenericName=Pasgen
 Exec=com.github.alexkdeveloper.pasgen %U
 Icon=com.github.alexkdeveloper.pasgen
 Terminal=false
-Categories=Utility;GTK;
+Categories=GTK;Utility;Security;
 Keywords=password;generator;
