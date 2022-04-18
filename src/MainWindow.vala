@@ -26,14 +26,14 @@ namespace Pasgen {
       construct {
         var css_provider = new CssProvider();
         try {
-                 css_provider.load_from_data(".password {font-size: 18px} .generate {background-color: blue; color: white}");
+                 css_provider.load_from_data(".password {font-size: 18px}");
                  StyleContext.add_provider_for_screen(Gdk.Screen.get_default(), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
              } catch (Error e) {
                  error ("Cannot load CSS stylesheet: %s", e.message);
          }
           get_style_context().add_class("rounded");
           HeaderBar headerbar = new HeaderBar();
-          headerbar.get_style_context().add_class(STYLE_CLASS_FLAT);
+          headerbar.get_style_context().add_class("flat");
           headerbar.show_close_button = true;
           set_titlebar(headerbar);
           box = new Box (Orientation.VERTICAL, 1);  
@@ -110,7 +110,7 @@ namespace Pasgen {
             vbox.add(password_length_label);
             vbox.add(password_length_entry);
             var button_generate_password = new Button.with_label (_("GENERATE\nPASSWORD"));
-            button_generate_password.get_style_context().add_class("generate");
+            button_generate_password.get_style_context().add_class("suggested-action");
             button_generate_password.clicked.connect (() => {
                 generate_password();
             });       
