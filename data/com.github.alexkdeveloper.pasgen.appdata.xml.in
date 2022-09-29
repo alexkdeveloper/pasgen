@@ -18,6 +18,7 @@
   <url type="help">http://github.com/alexkdeveloper/pasgen/issues</url>
   <screenshots>
     <screenshot type="default">
+    <caption>Simple password generator</caption>
     <image>https://raw.githubusercontent.com/alexkdeveloper/pasgen/main/data/screenshots/screenshot.png</image>
     </screenshot>
   </screenshots>
