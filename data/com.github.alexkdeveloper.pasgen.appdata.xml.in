@@ -24,6 +24,11 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.0.3" date="2022-10-23">
+        <description>
+            <p>Added Russian translation</p>
+        </description>
+    </release>
     <release version="1.0.2" date="2022-05-19">
         <description>
             <p>Update to elementary platform version 7</p>
