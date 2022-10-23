@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-10-23 22:06+0800\n"
+"PO-Revision-Date: 2022-10-23 22:09+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: MainWindow.vala:47
+msgid "Your password will be here"
+msgstr "Ваш пароль будет здесь"
+
+#: MainWindow.vala:65
+msgid "Alphabet characters"
+msgstr "Буквенные символы"
+
+#: MainWindow.vala:78
+msgid "Numeric characters"
+msgstr "Числовые символы"
+
+#: MainWindow.vala:91
+msgid "Special characters"
+msgstr "Специальные символы"
+
+#: MainWindow.vala:104
+msgid "Password length:"
+msgstr "Длина пароля:"
+
+#: MainWindow.vala:112
+msgid "GENERATE\n"
+"PASSWORD"
+msgstr "СОЗДАТЬ\n"
+"ПАРОЛЬ"
+
+#: MainWindow.vala:125
+msgid "The input field cannot be empty"
+msgstr "Поле ввода не может быть пустым"
+
+#: PasswordGenerator.vala:29
+msgid "Enter a valid password length value"
+msgstr "Введите действительное значение длины пароля"
+
+#: PasswordGenerator.vala:31
+msgid "Password length cannot be less than zero"
+msgstr "Длина пароля не может быть меньше нуля"
+
+#: PasswordGenerator.vala:33
+msgid "You need to activate at least one switch"
+msgstr "Вам необходимо активировать хотя бы один переключатель"
+

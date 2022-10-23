@@ -44,7 +44,7 @@ namespace Pasgen {
         }
 
         private void create_password_text () {
-            password_text = new Label ("Your password will be here");
+            password_text = new Label (_("Your password will be here"));
             password_text.selectable = true;
             password_text.margin = 12;
             password_text.wrap = true;
@@ -101,7 +101,7 @@ namespace Pasgen {
             var hbox = new Box(Orientation.HORIZONTAL, 12);
             hbox.halign = Align.CENTER;
             hbox.margin = 12;
-            var password_length_label = new Label("Password length:");
+            var password_length_label = new Label(_("Password length:"));
             password_length_label.xalign = 0;
             password_length_entry = new Entry();
             password_length_entry.set_text ("18");
@@ -122,7 +122,7 @@ namespace Pasgen {
 
    private void generate_password () {
           if (password_length_entry.get_text().strip().length == 0){
-              password_text.label = "The input field cannot be empty";
+              password_text.label = _("The input field cannot be empty");
               password_length_entry.grab_focus();
               return;
           }
