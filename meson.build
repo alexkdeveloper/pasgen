@@ -13,10 +13,6 @@ add_project_arguments (
     '-DGETTEXT_PACKAGE="@0@"'.format (meson.project_name ()),
     language: 'c'
 )
-add_project_arguments(
-    ['--vapidir', meson.current_source_dir() / 'vapi'],
-    language: 'vala'
-)
 
 conf = configuration_data()
 # Get the package data directory under Meson
@@ -61,4 +57,10 @@ executable (
 subdir ('data')
 subdir ('po')
 
-meson.add_install_script ('meson/post_install.py')
+gnome = import('gnome')
+
+gnome.post_install(
+  glib_compile_schemas: false,
+  gtk_update_icon_cache: true,
+  update_desktop_database: true
+)
