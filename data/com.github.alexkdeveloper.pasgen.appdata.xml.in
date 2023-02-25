@@ -24,6 +24,11 @@
   </screenshots>
   <content_rating type="oars-1.1"/>
   <releases>
+    <release version="1.0.5" date="2023-02-25">
+        <description>
+            <p>Added Dutch translation</p>
+        </description>
+    </release>
     <release version="1.0.4" date="2022-12-06">
         <description>
             <p>Update to elementary platform version 7.1</p>
